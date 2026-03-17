@@ -66,7 +66,7 @@ def programs_by_year(request, year):
             to_attr='sigs_list'
         )
     )
-
+    
     for program in programs:
         program.sigs = program.sigs_list
 
